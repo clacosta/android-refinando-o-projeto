@@ -1,7 +1,6 @@
 package br.com.alura.agenda.ui.activity;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +22,7 @@ import static br.com.alura.agenda.ui.activity.ConstantesActivities.CHAVE_ALUNO;
 
 public class ListaAlunosActivity extends AppCompatActivity {
 
-    public static final String TITULO_APPBAR = "Lista de alunos";
+    private static final String TITULO_APPBAR = "Lista de alunos";
     private final AlunoDAO dao = new AlunoDAO();
     private ListaAlunosAdapter adapter;
 
